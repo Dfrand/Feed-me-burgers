@@ -21,5 +21,26 @@
             {{/each}}
             </div>
         </div>
+
+        <div class"col-xs-6 text-center" class="task">
+            {{#each burger_data}}
+                {{#if this.devoured}}
+                    <input type="text" class="form-control" placeholder="{{this.id}}. {{this.burger_name}}"
+                     readonly>
+                {{/if}}
+            {{/each}}
+        </div>
+    </div>
+</div>
+
+<div class="containter">
+    <div class="row">
+        <div class="col-xs-12 text-center enter_selection">
+        <form action="/burgers/create" method="POST">
+            <input type="text" name="burger_name" class="form-control" id="enter-text" value="">
+            <button class="btn btn-primary" type="submit" id="text-enter-button">Submit</button>
+        </form>
+        <p>Build your own Burger!</p>
+        </div>
     </div>
 </div>
