@@ -40,7 +40,7 @@ A fullstack application that takes allows to you Build your own burger
  - `npm install mysql`
 ***
 ## Heroku
-You can try it out now at [Feed-Me-Burgers](https://#.herokuapp.com/).
+You can try it out now at [Feed-Me-Burgers](https://arcane-escarpment-22495.herokuapp.com/).
 
 ***
 ## Contributors: 
