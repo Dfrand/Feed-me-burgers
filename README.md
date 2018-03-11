@@ -7,8 +7,8 @@ A fullstack application that takes allows to you Build your own burger
 ## Getting Started
 
  - Clone repo.
- - Run 'npm install' in command line.
- - Run 'node server.js' to get started.
+ - Run `npm install` in command line.
+ - Run `node server.js` in command line.
  - Build your own burger, Devour it. If you still are hungry try one on the menu or build your own again! 
 
 ***
